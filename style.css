@@ -1,0 +1,27 @@
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.right_car{
+    /* position: absolute; */
+    /* display: flex;
+    justify-content:center; */
+    /* top: 50px; */
+    height:100px;
+    width: 100px;
+    border-radius:50%;
+    background-color:rgb(3, 3, 255);
+
+}
+.left_car{
+    /* position: absolute; */
+    /* display: flex;
+    justify-content:center; */
+    /* top: 50px; */
+    height:100px;
+    width: 100px;
+    border-radius:50%;
+    background-color:rgb(255, 3, 3);
+
+}
