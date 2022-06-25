@@ -6,86 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="import" href="/road.html">
+    <link rel="stylesheet" href="road.css">
+    <link rel="import" href="./road.html">
 
-    <style>
-        .container{
-             background-color: darkorange;
-             background-size: cover;
-        }
-
-        .vehicle{
-            width: 50px;
-            height: 80px;
-            background-color:aqua;
-            position: absolute;
-            bottom: 120px;
-            background-size: cover;
-        }
-
-        .road{
-            width: 400px;
-            height:100vh;
-            margin: auto;
-            background-color: black;
-            position: relative;
-            border-left: 7px dashed white;
-            border-right: 7px dashed white;
-        }
-
-        .line{
-            width: 10px;
-            height: 100px;
-            position: absolute;
-            background-color:white;
-            margin-left: 195px;
-        }
-    </style>
-
+ 
 </head>
 <body>
 
     <div class="container">
         <div class="road"></div>
     </div>
-    <script>
-          const roadarea = document.querySelector('.road');
-
-
-        function init(){
-
-//             let vehicles=document.createElement('div');
-//             vehicles.setAttribute('class','vehicle');
-//             roadarea.appendChild(vehicles);
-            //roadlines repeated
-            for(var x=0;x<5;x++)
-            {
-            let roadlines=document.createElement('div');
-            roadlines.setAttribute('class','line');
-            roadlines.y=x*150;
-            roadlines.style.top=roadlines.y+'px';
-            roadarea.appendChild(roadlines);
-            }
-
-            /*let line= document.createElement('div');
-            line.setAttribute('class','line');
-            roadarea.appendChild(line);*/
-
-
-        }
-        init();
-
-    </script>
-
-
-  <!--  <div class="square"></div>
-    <script src="script.js"> </script>-->
-    
-    
     <div class="right_car"></div>
     <div class="left_car"></div>
-    </div>    
+       
     <script src="script.js"></script>
-    
+    <script src="road.js"></script>
 </body>
 </html>

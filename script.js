@@ -11,11 +11,11 @@ let left_car_side_right=1;
 
 window.addEventListener('load',()=>{
     right_car.style.position ='absolute';
-    right_car.style.left = 110+'vh' ;
+    right_car.style.left = 107+'vh' ;
     right_car.style.top =80+'vh'; 
 
     left_car.style.position='absolute';
-    left_car.style.left = 90 +'vh' ;
+    left_car.style.left = 87 +'vh' ;
     left_car.style.top =  80 +'vh';
 });
 

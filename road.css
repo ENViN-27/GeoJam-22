@@ -1,0 +1,38 @@
+*
+{
+    margin:auto;
+    padding:auto;
+    box-sizing: border-box;
+}   
+
+        .container{
+             background-color: darkorange;
+             /* background-size: cover; */
+        }
+
+        .vehicle{
+            width: 50px;
+            height: 80px;
+            background-color:aqua;
+            position: absolute;
+            bottom: 120px;
+            background-size: cover;
+        }
+
+        .road{
+            width: 400px;
+            height:100vh;
+            margin: auto;
+            background-color: black;
+            position: relative;
+            border-left: 7px dashed white;
+            border-right: 7px dashed white;
+        }
+
+        .line{
+            width: 10px;
+            height: 100px;
+            position: absolute;
+            background-color:white;
+            margin-left: 195px;
+        }
